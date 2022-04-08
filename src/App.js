@@ -48,7 +48,8 @@ export default function App() {
         <article className="image-container">
           <Image
             cloudName="sankara"
-            publicId={`https://res.cloudinary.com/sankara/image/upload/v1649427526/${imageData.public_id}`}
+            publicId={`https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/v1649427526/${imageData.public_id}`}
+            // Replace YOUR_CLOUD_NAME with your cloudName which you can find in your Dashboard
           />
         </article>
       </div>
